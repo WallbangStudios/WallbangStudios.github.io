@@ -123,6 +123,18 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.txt-carousel{
+  color:#ffffff !important;
+  font-size: 20px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.title-carousel{
+  color:#ffffff !important;
+  font-size: 40px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 #mainNav {
   background-color: #212529;
 }
@@ -183,7 +195,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #292929ab;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -242,10 +254,10 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 37px;
     font-weight: 700;
     line-height: 75px;
-    margin-top: 40px;
+    margin-top: 3px;
     margin-bottom: 10px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }

@@ -2,36 +2,29 @@
 <!-- example file containing base tags -->
 
 <game>	
-	<title>WallBank Studios</title>
+	<title>Wallbang Studios</title>
 	<founding-date>September 4, 2016</founding-date>
 	<website>http://wallbangstudios.github.io/</website>
 	<based-in>Maracay, Venezuela</based-in>
 	
-	<press-contact>press-contact@company.com</press-contact>
-	<phone>+00 (1) 22 33 44 55 66</phone>
-	<address>
-		<line>Address Line 1</line>
-		<line>Address Line 2</line>
-		<line>Address Line 3</line>
-	</address>
-
+	<press-contact>wallbangstudios4.9@gmail.com</press-contact>
 	<socials>
 		<social>
-			<name>twitter.com/MyCompanyName</name>
-			<link>twitter.com/MyCompanyName</link>
+			<name>@WallbangStudios</name>
+			<link>twitter.com/wallbangstudios</link>
 		</social>
 		<social>
-			<name>facebook.com/MyCompanyName</name>
-			<link>facebook.com/MyCompanyName</link>
+			<name>Wallbang Studios</name>
+			<link>facebook.com/WallbangStudios</link>
 		</social>
 		<social>
-			<name>Skype</name>
-			<link>callto:MySkypeName</link>
+			<name>Tumblr</name>
+			<link>CatarsisTheGame</link>
 		</social>
 	</socials>
 
 	<description>	
-		We're games studio and we make games. We're also capable of editing XML files.
+		Wallbang Studios it's a Game Company based in Maracay, Venezuala. We make games to humans, from humans
 	</description>
 		
 	<histories>
@@ -56,25 +49,6 @@
 			<vimeo>12536488</vimeo>
 		</trailer>
 	</trailers>
-	
-	<awards>
-		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
-		</award>
-		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
-		</award>
-		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
-		</award>
-		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
-		</award>
-	</awards>
 	
 	<quotes>
 		<quote>
@@ -103,52 +77,59 @@
 		</quote>
 	</quotes>
 	
-	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
-	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+	<press-can-request-copy>FALSE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>FALSE</monetization-permission> <!-- can be: 	false (no video allowed),
 																			 	ask (permission on case-per-case basis),
 																			 	non-commercial (no monetization allowed),
 																			 	monetize (full permission) -->	
 	<additionals>
 		<additional>
-			<title>Company Link #1</title>
-			<description>This link is a link that might be useful. You can check it out at</description>
-			<link>http://somemusicsite.com/thislink</link>
+			<title>Wallbang Studios Website</title>
+			<description>You can visit Us and see the game</description>
+			<link>http://wallbangstudios.github.io</link>
 		</additional>
 	</additionals>
 	
 	<credits>
 		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
+			<person>Jose Pereira</person>
+			<role>Business &amp; Programmer, Writer</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
+			<person>Mirla Montaño</person>
+			<role>Lead Artist, Technical Art</role>
 		</credit>
 		<credit>
-			<person>Jane Doette</person>
+			<person>Raimon Koudsi</person>
+			<role>Programmer, Writer</role>
+		</credit>
+		<credit>
+			<person>Carlos Edesio</person>
+			<role>Artist</role>
+		</credit>
+		<credit>
+			<person>Robert Nekrasov</person>
 			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<role>Music, Sound FX</role>
 		</credit>
 	</credits>
 	
 	<contacts>
 		<contact>
 			<name>Inquiries</name>
-			<mail>rami@vlambeer.com</mail>
+			<mail>wallbangstudios4.9@gmail.com</mail>
 		</contact>
 		<contact>
 			<name>Twitter</name>
-			<link>http://twitter.com/MyCompanyName</link>
+			<link>http://twitter.com/wallbangstudios</link>
 		</contact>
 		<contact>
 			<name>Facebook</name>
-			<link>http://facebook.com/MyCompanyName</link>
+			<link>http://facebook.com/wallbangstudios</link>
 		</contact>
 		<contact>
 			<name>Web</name>
-			<link>MyCompanyWebsite.com</link>
+			<link>wallbangstudios.github.io</link>
 		</contact>
 	</contacts>
 </game>

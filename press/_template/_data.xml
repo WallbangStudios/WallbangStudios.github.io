@@ -1,42 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <game>
-	<title>Game Name</title>
-	<release-date>1 May, 2012</release-date>
-	<website>http://www.gamesite.com/</website>
-	<press-can-request-copy>TRUE</press-can-request-copy>
-
-	<platforms>
-		<platform>
-			<name>PC / Mac</name>
-			<link>http://www.gamesite.com/</link>
-		</platform>
-		<platform>
-			<name>Steam</name>
-			<link>http://www.steampowered.com/</link>
-		</platform>
-		<platform>
-			<name>Apple App Store</name>
-			<link>http://www.itunes.com/</link>
-		</platform>
-	</platforms>
+	<title>Catarsis</title>
+	<release-date></release-date>
+	<website>http://wallbangstudios.github.io</website>
+	<press-can-request-copy>FALSE</press-can-request-copy>
 	
 	<prices>
 		<price>
 			<currency>USD</currency>
-			<value>$1.99</value>
-		</price>
-		<price>
-			<currency>EUR</currency>
-			<value>€1.59</value>
-		</price>
-		<price>
-			<currency>CAD</currency>
-			<value>$1.99</value>
-		</price>				
-		<price>
-			<currency>GBP</currency>
-			<value>£1.29</value>
+			<value>$15.00</value>
 		</price>
 	</prices>
 
@@ -130,26 +103,25 @@
 	
 	<credits>
 		<credit>
-			<person>Rami Ismail</person>
-			<role>Business &amp; Development, Vlambeer</role>
+			<person>Jose Pereira</person>
+			<role>Business &amp; Programmer, Writer</role>
 		</credit>
 		<credit>
-			<person>Jan Willem Nijman</person>
-			<role>Game Designer, Vlambeer</role>
+			<person>Mirla Montaño</person>
+			<role>Lead Artist, Technical Art</role>
 		</credit>
 		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
+			<person>Raimon Koudsi</person>
+			<role>Programmer, Writer</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
+			<person>Carlos Edesio</person>
+			<role>Artist</role>
+		</credit>
+		<credit>
+			<person>Robert Nekrasov</person>
 			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
-		</credit>
-		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<role>Music, Sound FX</role>
 		</credit>
 	</credits>
 </game>
