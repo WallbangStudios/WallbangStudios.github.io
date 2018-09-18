@@ -123,17 +123,7 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.txt-carousel{
-  color:#ffffff !important;
-  font-size: 20px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
-.title-carousel{
-  color:#ffffff !important;
-  font-size: 40px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 #mainNav {
   background-color: #212529;
@@ -234,7 +224,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 35px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 15px;
@@ -645,11 +635,16 @@ section#about .section-heading, section#about .service-heading {
 }
 
 section#carousel {
-  background-color: #000;
+  background-color: #292929;
   padding: 0px !important;
 }
+.w3-content {
+    box-sizing: inherit;
+    max-width: 980px;
+    margin: auto;
 
-.carousel-caption-l {
+}
+.carousel-caption-1 {
     position: absolute;
     right: 58%;
     bottom: 0px;
@@ -664,7 +659,7 @@ section#carousel {
     text-align: center;
     background-color: #000000a8;
 }
-.carousel-caption-r {
+.carousel-caption-2 {
     position: absolute;
     right: 10%;
     bottom: 0px;
@@ -678,6 +673,86 @@ section#carousel {
     color: #fff;
     text-align: center;
     background-color: #000000a8;
+}
+.carousel-caption-3 {
+    position: absolute;
+    right: 58%;
+    bottom: 0px;
+    top: 0px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 182px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #000000a8;
+}
+.txt-carousel{
+  color:#ffffff !important;
+  font-size: 20px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.title-carousel{
+  color:#ffffff !important;
+  font-size: 40px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media(min-width: 768px){
+  .carousel-caption-1{
+      padding-top: 49px;
+  }
+  .carousel-caption-2{
+      padding-top: 49px;
+  }
+  .carousel-caption-3{
+      padding-top: 49px;
+  }
+  .txt-carousel{
+      font-size: 12px;
+  }
+  .title-carousel{
+      font-size: 23px;
+  }
+}
+
+@media(min-width: 992px){
+  .carousel-caption-1{
+      padding-top: 54px;
+  }
+  .carousel-caption-2{
+      padding-top: 54px;
+  }
+  .carousel-caption-3{
+      padding-top: 54px;
+  }
+  .txt-carousel{
+      font-size: 14px;
+  }
+  .title-carousel{
+      font-size: 34px;
+  }
+}
+
+@media(min-width: 1200px){
+  .carousel-caption-1{
+      padding-top: 76px;
+  }
+  .carousel-caption-2{
+      padding-top: 127px;
+  }
+  .carousel-caption-3{
+      padding-top: 100px;
+  }
+  .txt-carousel{
+      font-size: 16px;
+  }
+  .title-carousel{
+      font-size: 40px;
+  }
 }
 
 section#team {
