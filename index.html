@@ -82,7 +82,7 @@
 
 		<div class="close">+</div>
 
-    		<iframe width="560" height="315" src="https://www.youtube.com/embed/djV11Xbc914" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		<iframe id="youtube_player" class="yt_player_iframe" width="560" height="315" src="https://www.youtube.com/embed/djV11Xbc914" allowscriptaccess="always" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 </div>
   
@@ -139,6 +139,12 @@
 		
 	document.querySelector('.bg-modal').addEventListener("click", function() {
 	document.querySelector('.bg-modal').style.display = "none";});
+		
+	
+	$('.yt_player_iframe').each(function(){
+ 	this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*') 
+	});	
+		
 	</script>
   
   
