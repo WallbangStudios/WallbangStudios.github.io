@@ -81,8 +81,12 @@
 	<div class="modal-contents">
 
 		<div class="close">+</div>
-
-    		<iframe class=".videoPlayer" width="560" height="315" src="https://www.youtube.com/embed/djV11Xbc914" allowscriptaccess="always" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div id="divScope">
+		
+    		<iframe  id="ytplayer" class=".videoPlayer" width="560" height="315" src="https://www.youtube.com/embed/djV11Xbc914" allowscriptaccess="always" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		</div>
 	</div>
 </div>
   
@@ -135,10 +139,9 @@
 	  
 	  
 	document.querySelector('.close').addEventListener("click", function() {
-	document.querySelector('.bg-modal').style.display = "none";});  
+	document.querySelector('.bg-modal').style.display = "none"; 
 		
-	document.querySelector('.bg-modal').addEventListener("click", function() {
-	document.querySelector('.bg-modal').style.display = "none";});
+	var myScope = document.getElementById('divScope'); 
 		
 	var iframes = myScope.getElementsByTagName("iframe");
 	if (iframes != null) {
@@ -146,6 +149,8 @@
 	        iframes[i].src = iframes[i].src; //causes a reload so it stops playing, music, video, etc.
 	    }
 	}
+		
+	}); //fin de la function()
 		
 	</script>
   
