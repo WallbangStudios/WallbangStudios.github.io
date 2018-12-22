@@ -90,10 +90,98 @@ $(document).ready(function(){
         </div>
         <a class="btn btn-secondary text-uppercase" data-toggle="modal" href="#portfolioModal1" style="padding-left: 50px; padding-right: 50px;">Trailer</a>
         <a class="btn btn-primary text-uppercase js-scroll-trigger" href="#services" style="padding-left: 30px; padding-right: 30px;">KickStarter</a>
+        <a class="btn btn-tertiary text-uppercase" id="botonwea" data-toggle="modal" href="#weamodal" style="padding-left: 10px; padding-right: 10px;">Wea Modal</a>
       </div>
     </div>
   </header>
 
+  <!-- html de la wea modal -->
+
+<div class="bg-modal">
+	<div class="modal-contents">
+
+		<button class="close" >+</button>
+		
+		<div id="divScope">
+		
+    		<iframe  id="ytplayer" class=".videoPlayer" width="560" height="315" align="middle" src="https://www.youtube.com/embed/djV11Xbc914" allowscriptaccess="always" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		</div>
+	</div>
+</div>
+  
+  
+  <!-- css de la wea modal -->
+<style>
+  
+  .bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	}
+	
+	
+	.modal-contents {
+	height: 360px;
+	width: 610px;
+	background-color: white;
+	text-align: center;
+	align-content: center;
+	
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+	}
+	
+	
+	.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+	
+  
+  </style>
+  
+  
+	<script>
+	document.getElementById('botonwea').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "flex";});
+	  
+	  
+	document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "none"; 
+		
+	var myScope = document.getElementById('divScope'); 
+		
+	var iframes = myScope.getElementsByTagName("iframe");
+	if (iframes != null) {
+	    for (var i = 0; i < iframes.length; i++) {
+	        iframes[i].src = iframes[i].src; //causes a reload so it stops playing, music, video, etc.
+	    }
+	}
+		
+	}); //fin de la function()
+		
+	</script>
+  
+  
+  
+  
+  
+  
+  
   <!-- About -->
   <section id="about">
     <div class="container">
